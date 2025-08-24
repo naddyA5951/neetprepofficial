@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>NEET PREP – Official by NAVEED ALI</title>
+<meta name="theme-color" content="#2563eb"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><rect width=%22128%22 height=%22128%22 rx=%2224%22 fill=%22%232563eb%22/><text x=%2250%25%22 y=%2258%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2264%22 fill=%22white%22>N</text></svg>">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+  .container{max-width:1200px}
+  .chip{border-radius:9999px;padding:.25rem .6rem;background:#f1f5f9;font-size:.75rem}
+  .scroll-y{overflow-y:auto}
+  .virt{contain:content}
+</style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+<header class="sticky top-0 z-50 bg-white/90 border-b border-slate-200 backdrop-blur">
+  <div class="container mx-auto px-4 py-3 flex items-center gap-4">
+    <div class="flex items-center gap-2 select-none">
+      <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 grid place-items-center font-extrabold text-white">N</div>
+      <div class="font-extrabold tracking-tight text-slate-900">NEET PREP</div>
+    </div>
+    <nav class="ml-auto hidden md:flex items-center gap-6 text-sm">
+      <a class="hover:text-blue-600" href="#/home">Home</a>
+      <a class="hover:text-blue-600" href="#/practice">Practice</a>
+      <a class="hover:text-blue-600" href="#/mock">Mock Test</a>
+      <a class="hover:text-blue-600" href="#/bookmarks">Bookmarks</a>
+      <a class="hover:text-blue-600" href="#/admin">Admin</a>
+      <a class="hover:text-blue-600" href="#/about">About</a>
+    </nav>
+    <a class="md:hidden ml-auto px-3 py-1.5 rounded-xl bg-blue-600 text-white text-sm" href="#/practice">Start</a>
+  </div>
+</header>
+
+<main id="app" class="min-h-[70vh]"></main>
+
+<footer class="mt-10 border-t border-slate-200">
+  <div class="container mx-auto px-4 py-8 grid md:grid-cols-3 gap-6 text-sm">
+    <div>
+      <div class="font-semibold mb-1">NEET PREP – Official</div>
+      <p class="text-slate-600">Created by <strong>NAVEED ALI</strong> • 📧 <a class="text-blue-600 underline" href="mailto:naveedalicodes1@gmail.com">naveedalicodes1@gmail.com</a></p>
+      <p class="text-slate-500 mt-1">Independent educational resource. Not affiliated with NTA.</p>
+    </div>
+    <div>
+      <div class="font-semibold mb-1">Quick Links</div>
+      <ul class="space-y-1">
+        <li><a class="hover:text-blue-600" href="#/practice">Practice</a></li>
+        <li><a class="hover:text-blue-600" href="#/mock">Mock Test</a></li>
+        <li><a class="hover:text-blue-600" href="#/bookmarks">Bookmarks</a></li>
+        <li><a class="hover:text-blue-600" href="#/admin">Admin</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="font-semibold mb-1">Open</div>
+      <a href="./index.html" target="_blank" class="inline-block px-3 py-2 rounded-xl bg-slate-900 text-white">Open in Chrome</a>
+    </div>
+  </div>
+  <div class="py-4 text-center text-xs text-slate-500">© <span id="year"></span> NEET PREP • Built by <strong>NAVEED ALI</strong></div>
+</footer>
+
+<template id="homeTpl">
+  <section class="bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 text-white">
+    <div class="container mx-auto px-4 py-16 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Crack NEET with structured practice</h1>
+        <p class="mt-4 text-white/90">Filter by <b>Subject → Chapter → Topic</b>. Massive banks (300+ Q per chapter), timer, +4/−1 scoring, review incorrect, bookmarks, local leaderboard.</p>
+        <div class="mt-6 flex gap-3">
+          <a class="px-5 py-3 rounded-2xl bg-white text-slate-900 font-semibold" href="#/practice">Start Practicing</a>
+          <a class="px-5 py-3 rounded-2xl border border-white/60 text-white/95" href="#/mock">Attempt Mock (3 hrs)</a>
+        </div>
+      </div>
+      <div class="rounded-3xl p-6 bg-white/90 text-slate-900 shadow-xl">
+        <div class="text-sm text-slate-600 mb-2">Quick Stats (this device)</div>
+        <div class="grid grid-cols-3 gap-3">
+          <div class="p-4 rounded-2xl bg-white"><div class="text-2xl font-bold" id="statTotalQ">—</div><div class="text-xs text-slate-500">Questions</div></div>
+          <div class="p-4 rounded-2xl bg-white"><div class="text-2xl font-bold" id="statSubjects">3</div><div class="text-xs text-slate-500">Subjects</div></div>
+          <div class="p-4 rounded-2xl bg-white"><div class="text-2xl font-bold" id="statBookmarks">0</div><div class="text-xs text-slate-500">Bookmarks</div></div>
+        </div>
+        <div class="mt-4 text-xs text-slate-600">Data saved locally using your browser.</div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<template id="practiceTpl">
+  <section class="container mx-auto px-4 py-8">
+    <div class="grid lg:grid-cols-4 gap-4 mb-4">
+      <div class="lg:col-span-3 grid sm:grid-cols-4 gap-3">
+        <label class="block">
+          <span class="block text-sm font-medium mb-1">Subject</span>
+          <select id="subjectSelect" class="w-full rounded-xl border-slate-300 p-2"></select>
+        </label>
+        <label class="block">
+          <span class="block text-sm font-medium mb-1">Chapter</span>
+          <select id="chapterSelect" class="w-full rounded-xl border-slate-300 p-2"></select>
+        </label>
+        <label class="block">
+          <span class="block text-sm font-medium mb-1">Topic</span>
+          <select id="topicSelect" class="w-full rounded-xl border-slate-300 p-2"></select>
+        </label>
+        <label class="block">
+          <span class="block text-sm font-medium mb-1">Questions</span>
+          <input id="countInput" type="number" min="1" max="200" value="30" class="w-full rounded-xl border-slate-300 p-2"/>
+        </label>
+      </div>
+      <div class="flex lg:justify-end gap-2 lg:items-end">
+        <button id="startBtn" class="px-4 py-2 rounded-2xl bg-blue-600 text-white">Load</button>
+        <button id="resetBtn" class="px-4 py-2 rounded-2xl bg-slate-200">Reset</button>
+      </div>
+    </div>
+
+    <div id="virtWrap" class="hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+      <div class="p-4 border-b border-slate-200 flex items-center gap-3">
+        <span id="timer" class="chip">⏱ 00:00</span>
+        <span id="progress" class="chip">0 / 0</span>
+        <span class="chip">+4 / −1</span>
+        <span id="badgePath" class="ml-auto text-xs px-2 py-1 rounded-full bg-slate-100">—</span>
+      </div>
+      <div id="list" class="virt scroll-y max-h-[70vh] p-4"></div>
+      <div class="p-4 border-t border-slate-200 flex flex-wrap gap-2 items-center">
+        <button id="prevBtn" class="px-4 py-2 rounded-2xl bg-slate-200">Prev</button>
+        <button id="nextBtn" class="px-4 py-2 rounded-2xl bg-slate-200">Next</button>
+        <button id="submitBtn" class="ml-auto px-4 py-2 rounded-2xl bg-indigo-600 text-white">Submit</button>
+        <button id="reviewIncorrectBtn" class="px-4 py-2 rounded-2xl bg-rose-600 text-white">Review Incorrect</button>
+        <button id="exportBtn" class="px-4 py-2 rounded-2xl bg-slate-200">Export Session</button>
+      </div>
+    </div>
+
+    <section id="results" class="hidden mt-4 rounded-2xl border border-slate-200 bg-white shadow-sm">
+      <div class="p-5">
+        <h3 class="text-xl font-semibold mb-2">Result</h3>
+        <p id="scoreLine" class="text-slate-700"></p>
+        <div id="breakdown" class="mt-3 grid sm:grid-cols-3 gap-3"></div>
+      </div>
+    </section>
+  </section>
+</template>
+
+<template id="mockTpl">
+  <section class="container mx-auto px-4 py-8">
+    <div class="flex items-center gap-3 mb-3">
+      <span class="chip">Mock Test</span>
+      <span class="chip">3 hours</span>
+      <span class="chip">180 questions</span>
+    </div>
+    <p class="text-slate-600 mb-4">Starts a 3-hour timer and loads randomized questions across all subjects proportional to syllabus weightage.</p>
+    <button id="mockStart" class="px-4 py-2 rounded-2xl bg-blue-600 text-white">Start Mock</button>
+    <div id="mockMount" class="mt-4"></div>
+  </section>
+</template>
+
+<template id="bookTpl">
+  <section class="container mx-auto px-4 py-10">
+    <h2 class="text-2xl font-bold mb-4">Bookmarks</h2>
+    <div id="bookmarksList" class="space-y-3"></div>
+  </section>
+</template>
+
+<template id="adminTpl">
+  <section class="container mx-auto px-4 py-8">
+    <h2 class="text-2xl font-bold mb-2">Admin • Import / Export</h2>
+    <p class="text-slate-600 mb-4">Import a CSV and download ready JSON split per chapter. Use only questions you own or have permission to use.</p>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div class="p-4 rounded-2xl bg-white border border-slate-200">
+        <h3 class="font-semibold mb-2">Import CSV</h3>
+        <input id="csvInput" type="file" accept=".csv,text/csv" class="block w-full mb-2"/>
+        <button id="csvProcess" class="px-3 py-2 rounded-xl bg-indigo-600 text-white">Process & Build JSON</button>
+        <div id="csvLog" class="text-xs text-slate-600 mt-2 whitespace-pre-wrap"></div>
+      </div>
+      <div class="p-4 rounded-2xl bg-white border border-slate-200">
+        <h3 class="font-semibold mb-2">Downloads</h3>
+        <div id="downloads" class="text-sm text-slate-700 space-y-2"></div>
+      </div>
+    </div>
+    <div class="mt-6">
+      <a href="data:text/csv;charset=utf-8,id,subject,chapter,topic,q,optA,optB,optC,optD,ans,exp,source%0A"
+         download="neet_questions_template.csv"
+         class="px-3 py-2 rounded-xl bg-slate-900 text-white inline-block">Download CSV Template</a>
+    </div>
+  </section>
+</template>
+
+<template id="aboutTpl">
+  <section class="container mx-auto px-4 py-10 prose max-w-none">
+    <h2>About</h2>
+    <p><strong>NEET PREP</strong> is the official practice website by <strong>NAVEED ALI</strong>. It supports very large question banks via lazy loading and client-side indexing. Copyright notice: do not upload or distribute proprietary content without permission.</p>
+  </section>
+</template>
+
+<script>
+const ROUTES={'#/home':home,'#/practice':practice,'#/mock':mock,'#/bookmarks':bookmarks,'#/admin':admin,'#/about':about};
+const $=(s,r=document)=>r.querySelector(s);
+const byId=(id)=>document.getElementById(id);
+let MANIFEST=null, QINDEX={}, QUESTIONS=[], STATE={answers:{},bookmarks:new Set(JSON.parse(localStorage.getItem('neet_bookmarks')||'[]')), timer:null, startTs:null, pool:[], idx:0};
+const fmt=(s)=>String(s||'').trim();
+
+window.addEventListener('hashchange',renderRoute);
+function renderRoute(){(ROUTES[location.hash]||home)()}
+document.addEventListener('DOMContentLoaded',()=>{byId('year').textContent=new Date().getFullYear(); renderRoute();});
+
+async function loadManifest(){
+  if(MANIFEST) return MANIFEST;
+  try{
+    const res=await fetch('./data/manifest.json',{cache:'no-store'});
+    if(!res.ok) throw 0;
+    MANIFEST=await res.json();
+  }catch(e){
+    // minimal fallback manifest
+    MANIFEST={
+      Physics:{Kinematics:{file:'data/physics/kinematics.json',topics:['Motion in a Straight Line','Projectile']}},
+      Chemistry:{'Structure of Atom':{file:'data/chemistry/structure-of-atom.json',topics:['Bohr','Quantum']}},
+      Biology:{'Cell Structure':{file:'data/biology/cell-structure.json',topics:['Organelles','Membrane']}}
+    };
+  }
+  return MANIFEST;
+}
+
+async function loadChapterFile(path){
+  const res=await fetch(path,{cache:'no-store'});
+  if(!res.ok) throw new Error('Could not load '+path);
+  const data=await res.json();
+  if(!Array.isArray(data)) throw new Error('Invalid JSON in '+path);
+  return data;
+}
+
+function home(){
+  byId('app').innerHTML=byId('homeTpl').innerHTML;
+  byId('statBookmarks').textContent=STATE.bookmarks.size;
+  // estimate total questions if index loaded previously
+  byId('statTotalQ').textContent=QUESTIONS.length||'—';
+}
+
+async function practice(){
+  byId('app').innerHTML=byId('practiceTpl').innerHTML;
+  const subjectSel=byId('subjectSelect'), chapterSel=byId('chapterSelect'), topicSel=byId('topicSelect');
+  const manifest=await loadManifest();
+
+  const subjects=['Physics','Chemistry','Biology'];
+  subjectSel.innerHTML=['All',...subjects].map(s=>`<option value="${s}">${s}</option>`).join('');
+  function fillChapters(){
+    const s=subjectSel.value;
+    if(s==='All'){ chapterSel.innerHTML='<option>All</option>'; topicSel.innerHTML='<option>All</option>'; return; }
+    const ch=Object.keys(manifest[s]||{});
+    chapterSel.innerHTML=['All',...ch].map(c=>`<option>${c}</option>`).join('');
+    fillTopics();
+  }
+  function fillTopics(){
+    const s=subjectSel.value, c=chapterSel.value;
+    if(c==='All'){ topicSel.innerHTML='<option>All</option>'; return; }
+    const t=(manifest[s]&&manifest[s][c]&&manifest[s][c].topics)||[];
+    topicSel.innerHTML=['All',...t].map(t=>`<option>${t}</option>`).join('');
+  }
+  subjectSel.addEventListener('change',fillChapters);
+  chapterSel.addEventListener('change',fillTopics);
+  fillChapters();
+
+  const list=byId('list'); const virtWrap=byId('virtWrap');
+  const timerEl=byId('timer'); const progressEl=byId('progress'); const badgePath=byId('badgePath');
+
+  function startTimer(){ if(STATE.timer) clearInterval(STATE.timer); const t0=Date.now(); STATE.startTs=t0;
+    STATE.timer=setInterval(()=>{ const s=Math.floor((Date.now()-t0)/1000); const m=String(Math.floor(s/60)).padStart(2,'0'); const ss=String(s%60).padStart(2,'0'); timerEl.textContent=`⏱ ${m}:${ss}`; },1000);
+  }
+  function stopTimer(){ if(STATE.timer){ clearInterval(STATE.timer); STATE.timer=null; } }
+
+  function renderPool(){
+    virtWrap.classList.remove('hidden');
+    list.innerHTML='';
+    STATE.pool.forEach((q,i)=>{
+      const chosen=STATE.answers[q.id];
+      const card=document.createElement('div');
+      card.className='p-4 mb-3 rounded-2xl border border-slate-200 bg-white';
+      card.innerHTML=`
+        <div class="text-xs text-slate-500 mb-1">${q.subject} • ${q.chapter} • ${q.topic||''} <button data-bm="${q.id}" class="ml-2 px-2 py-0.5 text-amber-900 bg-amber-100 rounded-full">${STATE.bookmarks.has(q.id)?'★':'☆'}</button></div>
+        <div class="font-medium mb-2">Q${i+1}. ${q.q}</div>
+        <div class="grid gap-2">
+          ${q.options.map((opt,idx)=>`
+            <label class="flex items-start gap-3 p-2 rounded-xl border cursor-pointer hover:bg-slate-50 ${chosen===idx?'border-blue-300 ring-2 ring-blue-200':'border-slate-200'}">
+              <input type="radio" name="q${i}" ${chosen===idx?'checked':''} data-qid="${q.id}" data-idx="${idx}" class="mt-1">
+              <div>${String.fromCharCode(65+idx)}. ${opt}</div>
+            </label>`).join('')}
+        </div>
+        <details class="mt-2 text-sm text-slate-700"><summary class="cursor-pointer">Explanation</summary><div class="mt-1">${q.exp||'—'}</div></details>
+      `;
+      list.appendChild(card);
+    });
+    progressEl.textContent=`${Object.keys(STATE.answers).length} / ${STATE.pool.length}`;
+  }
+
+  function computeScore(pool,answers){
+    let correct=0, wrong=0, blank=0, bySubject={};
+    pool.forEach(q=>{
+      bySubject[q.subject] ||= {total:0,correct:0};
+      bySubject[q.subject].total++;
+      if(answers[q.id]==null) blank++;
+      else if(answers[q.id]===q.ans){ correct++; bySubject[q.subject].correct++; }
+      else wrong++;
+    });
+    const marks=4*correct-1*wrong; return {correct,wrong,blank,marks,bySubject};
+  }
+
+  byId('startBtn').addEventListener('click', async ()=>{
+    const s=subjectSel.value, c=chapterSel.value, t=topicSel.value;
+    const count=Math.max(1,Math.min(200,parseInt(byId('countInput').value||'30')));
+    let paths=[];
+    if(s==='All'){
+      for(const S of Object.keys(manifest)) for(const C of Object.keys(manifest[S])) paths.push({S,C,path:manifest[S][C].file});
+    }else if(c==='All'){
+      for(const C of Object.keys(manifest[s])) paths.push({S:s,C,path:manifest[s][C].file});
+    }else{
+      paths=[{S:s,C:c,path:manifest[s][c].file}];
+    }
+    let bank=[];
+    for(const p of paths){
+      try{ const arr=await loadChapterFile(p.path); bank.push(...arr.filter(q=>t==='All'||q.topic===t)); }catch(e){ console.warn(e); }
+    }
+    // shuffle & slice
+    for(let i=bank.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [bank[i],bank[j]]=[bank[j],bank[i]]; }
+    STATE.pool=bank.slice(0,count); STATE.answers={}; badgePath.textContent = `${s}${c!=='All'?' › '+c:''}${t!=='All'?' › '+t:''}`;
+    startTimer(); renderPool();
+    byId('results').classList.add('hidden');
+  });
+
+  byId('resetBtn').addEventListener('click',()=>{ stopTimer(); STATE.pool=[]; STATE.answers={}; virtWrap.classList.add('hidden'); byId('results').classList.add('hidden'); byId('timer').textContent='⏱ 00:00'; byId('progress').textContent='0 / 0'; });
+
+  byId('list').addEventListener('change',(e)=>{
+    const r=e.target.closest('input[type=radio]'); if(!r) return;
+    const qid=r.dataset.qid; const idx=parseInt(r.dataset.idx);
+    STATE.answers[qid]=idx; progressEl.textContent=`${Object.keys(STATE.answers).length} / ${STATE.pool.length}`;
+  });
+
+  byId('list').addEventListener('click',(e)=>{
+    const b=e.target.closest('button[data-bm]'); if(!b) return; const id=b.dataset.bm;
+    if(STATE.bookmarks.has(id)){ STATE.bookmarks.delete(id); b.textContent='☆'; }
+    else{ STATE.bookmarks.add(id); b.textContent='★'; }
+    localStorage.setItem('neet_bookmarks', JSON.stringify(Array.from(STATE.bookmarks)));
+  });
+
+  byId('submitBtn').addEventListener('click',()=>{
+    stopTimer(); const r=computeScore(STATE.pool,STATE.answers);
+    byId('scoreLine').textContent=`Correct: ${r.correct}, Wrong: ${r.wrong}, Unanswered: ${r.blank} → Score: ${r.marks}`;
+    byId('breakdown').innerHTML=Object.entries(r.bySubject).map(([sub,v])=>`<div class="p-3 rounded-xl border border-slate-200"><div class="text-sm text-slate-500">${sub}</div><div class="font-semibold">${v.correct} / ${v.total} correct</div></div>`).join('');
+    byId('results').classList.remove('hidden');
+    // local leaderboard
+    const lb=JSON.parse(localStorage.getItem('neet_leaderboard')||'[]'); lb.unshift({ts:Date.now(),...r}); localStorage.setItem('neet_leaderboard', JSON.stringify(lb.slice(0,20)));
+  });
+
+  byId('reviewIncorrectBtn').addEventListener('click',()=>{
+    const wrong=STATE.pool.filter(q=>STATE.answers[q.id]!=null && STATE.answers[q.id]!==q.ans);
+    if(!wrong.length) return alert('Nothing to review!');
+    STATE.pool=wrong; STATE.answers={}; renderPool();
+  });
+
+  byId('exportBtn').addEventListener('click',()=>{
+    const blob=new Blob([JSON.stringify({pool:STATE.pool,answers:STATE.answers},null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download='neet_session.json'; a.click(); URL.revokeObjectURL(url);
+  });
+}
+
+async function mock(){
+  byId('app').innerHTML=byId('mockTpl').innerHTML;
+  byId('mockStart').addEventListener('click', async ()=>{
+    const manifest=await loadManifest();
+    let paths=[]; for(const S of Object.keys(manifest)) for(const C of Object.keys(manifest[S])) paths.push(manifest[S][C].file);
+    let bank=[];
+    for(const p of paths){ try{ const arr=await loadChapterFile(p); bank.push(...arr);}catch(e){} }
+    if(bank.length<180){ alert('Not enough questions yet. Add more chapters in Admin.'); return; }
+    for(let i=bank.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [bank[i],bank[j]]=[bank[j],bank[i]]; }
+    // Reuse practice renderer by injecting a subset of 180
+    location.hash='#/practice';
+    setTimeout(()=>{
+      STATE.pool=bank.slice(0,180); STATE.answers={};
+      const timer=byId('timer'); if(timer){ let left=3*60*60; clearInterval(STATE.timer); STATE.timer=setInterval(()=>{ left--; const m=String(Math.floor(left/60)).padStart(2,'0'); const s=String(left%60).padStart(2,'0'); timer.textContent=`⏱ ${m}:${s}`; if(left<=0){ clearInterval(STATE.timer); byId('submitBtn').click(); } },1000); }
+      const list=byId('list'); if(list){ const evt=new Event('click'); byId('startBtn')?.dispatchEvent(evt); }
+    },100);
+  });
+}
+
+function bookmarks(){
+  byId('app').innerHTML=byId('bookTpl').innerHTML;
+  const ids=new Set(JSON.parse(localStorage.getItem('neet_bookmarks')||'[]'));
+  const wrap=byId('bookmarksList');
+  if(!ids.size){ wrap.innerHTML='<div class="text-slate-500">No bookmarks yet.</div>'; return; }
+  // If you want, you can load every chapter file and filter; for performance keep simple here.
+  wrap.innerHTML='<div class="text-slate-500">Bookmarks viewer will list items from your last loaded session.</div>';
+}
+
+function admin(){
+  byId('app').innerHTML=byId('adminTpl').innerHTML;
+  const input=byId('csvInput'), log=byId('csvLog'), dl=byId('downloads');
+  byId('csvProcess').addEventListener('click',async ()=>{
+    const f=input.files?.[0]; if(!f) return alert('Select a CSV first.');
+    const text=await f.text();
+    const rows=text.split(/\r?\n/).filter(Boolean);
+    const head=rows[0].split(',').map(h=>fmt(h));
+    const req=['id','subject','chapter','topic','q','optA','optB','optC','optD','ans','exp','source'];
+    for(const k of req){ if(!head.includes(k)) return alert('Missing column: '+k); }
+    const idx=Object.fromEntries(head.map((h,i)=>[h,i]));
+    const bucket={}; // subject/chapter -> array
+    for(let i=1;i<rows.length;i++){
+      const cols=rows[i].split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/); if(cols.length<head.length){
+        continue;
+      }
+      const rec={
+        id:fmt(cols[idx.id]),
+        subject:fmt(cols[idx.subject]),
+        chapter:fmt(cols[idx.chapter]),
+        topic:fmt(cols[idx.topic]),
+        q:cols[idx.q].replace(/^"|"$/g,''),
+        options:[cols[idx.optA].replace(/^"|"$/g,''),cols[idx.optB].replace(/^"|"$/g,''),cols[idx.optC].replace(/^"|"$/g,''),cols[idx.optD].replace(/^"|"$/g,'')],
+        ans:parseInt(fmt(cols[idx.ans]||'0'),10),
+        exp:(cols[idx.exp]||'').replace(/^"|"$/g,''),
+        source:fmt(cols[idx.source]||'')
+      };
+      const key=`${rec.subject}|||${rec.chapter}`;
+      (bucket[key] ||= []).push(rec);
+    }
+    // Build downloadable chapter JSONs + manifest
+    dl.innerHTML='';
+    const manifest={};
+    Object.entries(bucket).forEach(([key,arr])=>{
+      const [S,C]=key.split('|||');
+      const safe=(s)=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+      const path=`data/${safe(S)}/${safe(C)}.json`;
+      manifest[S] ||= {};
+      manifest[S][C] = { file: path, topics: Array.from(new Set(arr.map(x=>x.topic).filter(Boolean))) };
+      const blob=new Blob([JSON.stringify(arr,null,2)],{type:'application/json'});
+      const url=URL.createObjectURL(blob);
+      const a=document.createElement('a'); a.href=url; a.download=path.split('/').slice(-2).join('_'); a.textContent=`Download ${S} / ${C} (${arr.length} Q)`;
+      a.className='inline-block px-3 py-2 rounded-xl bg-blue-600 text-white';
+      const div=document.createElement('div'); div.appendChild(a); dl.appendChild(div);
+    });
+    const manBlob=new Blob([JSON.stringify(manifest,null,2)],{type:'application/json'});
+    const manUrl=URL.createObjectURL(manBlob);
+    const manA=document.createElement('a'); manA.href=manUrl; manA.download='manifest.json'; manA.textContent='Download manifest.json';
+    manA.className='inline-block px-3 py-2 rounded-xl bg-slate-900 text-white';
+    dl.prepend(manA);
+    log.textContent='Built '+Object.keys(bucket).length+' chapter file(s). Download them and place under /data/... in your repo.';
+  });
+}
+
+function about(){ byId('app').innerHTML=byId('aboutTpl').innerHTML; }
+</script>
+</body>
+</html>
