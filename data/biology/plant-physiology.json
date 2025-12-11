@@ -6,65 +6,17 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Lysosome",
-      "Golgi apparatus",
       "Mitochondrion",
-      "Ribosome"
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
     ],
-    "ans": 2,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
     "id": "biology-plant-physiology-2",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Metaphase I",
-      "Prophase I",
-      "Anaphase II",
-      "Telophase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-3",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Anaphase II",
-      "Metaphase I",
-      "Telophase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-4",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-5",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -76,6 +28,54 @@
       "Golgi apparatus"
     ],
     "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-3",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-4",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-5",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -87,8 +87,8 @@
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
       "Metaphase I",
-      "Anaphase II",
       "Telophase I",
+      "Anaphase II",
       "Prophase I"
     ],
     "ans": 3,
@@ -100,15 +100,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome",
-      "Golgi apparatus"
+      "Anaphase II",
+      "Prophase I",
+      "Metaphase I",
+      "Telophase I"
     ],
     "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -116,15 +116,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Mitochondrion",
-      "Ribosome",
-      "Lysosome",
-      "Golgi apparatus"
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I"
     ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -134,12 +134,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
+      "Ribosome",
       "Mitochondrion",
       "Golgi apparatus",
-      "Lysosome",
-      "Ribosome"
+      "Lysosome"
     ],
-    "ans": 0,
+    "ans": 1,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -148,147 +148,19 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Metaphase I",
-      "Anaphase II",
-      "Prophase I",
-      "Telophase I"
+      "Lysosome",
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion"
     ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
     "id": "biology-plant-physiology-11",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Ribosome",
-      "Lysosome",
-      "Golgi apparatus"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-12",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Prophase I",
-      "Telophase I",
-      "Metaphase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-13",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Ribosome",
-      "Golgi apparatus",
-      "Lysosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-14",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Metaphase I",
-      "Prophase I",
-      "Telophase I"
-    ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-15",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Ribosome",
-      "Lysosome",
-      "Golgi apparatus",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-16",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Metaphase I",
-      "Telophase I",
-      "Anaphase II"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-17",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Metaphase I",
-      "Prophase I",
-      "Anaphase II",
-      "Telophase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-18",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Metaphase I",
-      "Prophase I",
-      "Telophase I"
-    ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-19",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -304,39 +176,135 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-20",
+    "id": "biology-plant-physiology-12",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Metaphase I",
+      "Telophase I",
       "Anaphase II",
       "Prophase I",
-      "Telophase I"
+      "Metaphase I"
     ],
     "ans": 2,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-21",
+    "id": "biology-plant-physiology-13",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Anaphase II",
-      "Prophase I",
       "Metaphase I",
-      "Telophase I"
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I"
     ],
-    "ans": 1,
+    "ans": 3,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-22",
+    "id": "biology-plant-physiology-14",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-15",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-16",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-17",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-18",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-19",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I",
+      "Metaphase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-20",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -352,55 +320,23 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-23",
+    "id": "biology-plant-physiology-21",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Prophase I",
-      "Telophase I",
-      "Anaphase II",
-      "Metaphase I"
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome",
+      "Mitochondrion"
     ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-24",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Metaphase I",
-      "Anaphase II",
-      "Telophase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-25",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Anaphase II",
-      "Telophase I",
-      "Metaphase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-26",
+    "id": "biology-plant-physiology-22",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -416,19 +352,83 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-27",
+    "id": "biology-plant-physiology-23",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Telophase I",
-      "Anaphase II",
       "Prophase I",
-      "Metaphase I"
+      "Anaphase II",
+      "Metaphase I",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-24",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome"
     ],
     "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-25",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-26",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I"
+    ],
+    "ans": 0,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-27",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Golgi apparatus",
+      "Ribosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -436,15 +436,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion",
-      "Golgi apparatus"
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase II",
+      "Telophase I"
     ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -468,15 +468,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome"
+      "Metaphase I",
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I"
     ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -486,12 +486,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Prophase I",
-      "Telophase I",
       "Metaphase I",
-      "Anaphase II"
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I"
     ],
-    "ans": 0,
+    "ans": 3,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -502,49 +502,17 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Golgi apparatus",
       "Lysosome",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-33",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Ribosome",
-      "Lysosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-34",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
       "Mitochondrion",
       "Ribosome",
-      "Lysosome"
+      "Golgi apparatus"
     ],
     "ans": 1,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-35",
+    "id": "biology-plant-physiology-33",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -560,7 +528,23 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-36",
+    "id": "biology-plant-physiology-34",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-35",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -576,19 +560,35 @@
     "source": "generated-original"
   },
   {
+    "id": "biology-plant-physiology-36",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
     "id": "biology-plant-physiology-37",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion"
+      "Anaphase II",
+      "Prophase I",
+      "Metaphase I",
+      "Telophase I"
     ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -598,12 +598,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Metaphase I",
       "Anaphase II",
-      "Prophase I",
-      "Telophase I"
+      "Metaphase I",
+      "Telophase I",
+      "Prophase I"
     ],
-    "ans": 2,
+    "ans": 3,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -612,15 +612,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome",
-      "Golgi apparatus"
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II"
     ],
     "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -628,15 +628,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome",
-      "Golgi apparatus"
+      "Telophase I",
+      "Prophase I",
+      "Anaphase II",
+      "Metaphase I"
     ],
     "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -644,15 +644,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Golgi apparatus",
-      "Ribosome",
-      "Mitochondrion",
-      "Lysosome"
+      "Telophase I",
+      "Prophase I",
+      "Anaphase II",
+      "Metaphase I"
     ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -660,15 +660,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Telophase I",
-      "Metaphase I",
-      "Anaphase II",
-      "Prophase I"
+      "Lysosome",
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion"
     ],
     "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -676,15 +676,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Telophase I",
-      "Anaphase II",
-      "Metaphase I",
-      "Prophase I"
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion"
     ],
     "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -692,15 +692,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Golgi apparatus",
-      "Ribosome",
-      "Lysosome",
-      "Mitochondrion"
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I",
+      "Prophase I"
     ],
     "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -710,12 +710,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Lysosome",
       "Mitochondrion",
+      "Lysosome",
       "Ribosome",
       "Golgi apparatus"
     ],
-    "ans": 1,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -728,10 +728,10 @@
     "options": [
       "Golgi apparatus",
       "Ribosome",
-      "Lysosome",
-      "Mitochondrion"
+      "Mitochondrion",
+      "Lysosome"
     ],
-    "ans": 3,
+    "ans": 2,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -742,12 +742,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Telophase I",
       "Prophase I",
       "Anaphase II",
+      "Telophase I",
       "Metaphase I"
     ],
-    "ans": 1,
+    "ans": 0,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -758,12 +758,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Golgi apparatus",
       "Mitochondrion",
       "Ribosome",
-      "Lysosome"
+      "Lysosome",
+      "Golgi apparatus"
     ],
-    "ans": 1,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -772,15 +772,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome",
-      "Golgi apparatus"
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
     ],
-    "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -788,15 +788,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Golgi apparatus",
-      "Ribosome",
-      "Mitochondrion",
-      "Lysosome"
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II"
     ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -807,9 +807,9 @@
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
       "Mitochondrion",
-      "Golgi apparatus",
+      "Ribosome",
       "Lysosome",
-      "Ribosome"
+      "Golgi apparatus"
     ],
     "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
@@ -820,15 +820,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Mitochondrion",
-      "Golgi apparatus",
-      "Ribosome",
-      "Lysosome"
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I",
+      "Metaphase I"
     ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -838,12 +838,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Ribosome",
-      "Golgi apparatus",
+      "Lysosome",
       "Mitochondrion",
-      "Lysosome"
+      "Golgi apparatus",
+      "Ribosome"
     ],
-    "ans": 2,
+    "ans": 1,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -868,22 +868,6 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Metaphase I",
-      "Anaphase II",
-      "Telophase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-56",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
       "Mitochondrion",
@@ -896,7 +880,199 @@
     "source": "generated-original"
   },
   {
+    "id": "biology-plant-physiology-56",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
     "id": "biology-plant-physiology-57",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-58",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Prophase I",
+      "Anaphase II",
+      "Metaphase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-59",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-60",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-61",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Prophase I",
+      "Anaphase II",
+      "Metaphase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-62",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-63",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-64",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-65",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-66",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-67",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-68",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -909,182 +1085,6 @@
     ],
     "ans": 0,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-58",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Mitochondrion",
-      "Lysosome",
-      "Ribosome"
-    ],
-    "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-59",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion",
-      "Golgi apparatus"
-    ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-60",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Prophase I",
-      "Anaphase II",
-      "Metaphase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-61",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Lysosome",
-      "Golgi apparatus",
-      "Ribosome"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-62",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Lysosome",
-      "Golgi apparatus",
-      "Ribosome"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-63",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Golgi apparatus",
-      "Mitochondrion",
-      "Ribosome"
-    ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-64",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Prophase I",
-      "Telophase I",
-      "Metaphase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-65",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Lysosome",
-      "Ribosome",
-      "Golgi apparatus"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-66",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Anaphase II",
-      "Metaphase I",
-      "Telophase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-67",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Telophase I",
-      "Anaphase II",
-      "Metaphase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-68",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Mitochondrion",
-      "Ribosome",
-      "Lysosome"
-    ],
-    "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -1108,15 +1108,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Mitochondrion",
-      "Lysosome",
-      "Ribosome",
-      "Golgi apparatus"
+      "Prophase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Telophase I"
     ],
     "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -1124,15 +1124,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Telophase I",
-      "Metaphase I",
-      "Prophase I",
-      "Anaphase II"
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome",
+      "Mitochondrion"
     ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -1143,8 +1143,8 @@
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
       "Anaphase II",
-      "Telophase I",
       "Metaphase I",
+      "Telophase I",
       "Prophase I"
     ],
     "ans": 3,
@@ -1153,166 +1153,6 @@
   },
   {
     "id": "biology-plant-physiology-73",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Metaphase I",
-      "Anaphase II",
-      "Telophase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-74",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion",
-      "Golgi apparatus"
-    ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-75",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Prophase I",
-      "Metaphase I",
-      "Anaphase II"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-76",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Metaphase I",
-      "Telophase I",
-      "Anaphase II",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-77",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Telophase I",
-      "Metaphase I",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-78",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Metaphase I",
-      "Anaphase II",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-79",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Metaphase I",
-      "Anaphase II",
-      "Telophase I",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-80",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Prophase I",
-      "Metaphase I",
-      "Telophase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-81",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Anaphase II",
-      "Telophase I",
-      "Metaphase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-82",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome",
-      "Golgi apparatus"
-    ],
-    "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-83",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1328,14 +1168,62 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-84",
+    "id": "biology-plant-physiology-74",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
+      "Metaphase I",
       "Anaphase II",
+      "Prophase I",
+      "Telophase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-75",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
       "Telophase I",
+      "Prophase I",
+      "Anaphase II"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-76",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-77",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
       "Metaphase I",
       "Prophase I"
     ],
@@ -1344,7 +1232,135 @@
     "source": "generated-original"
   },
   {
+    "id": "biology-plant-physiology-78",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-79",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-80",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-81",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-82",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-83",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-84",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
     "id": "biology-plant-physiology-85",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-86",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1360,39 +1376,7 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-86",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Metaphase I",
-      "Anaphase II",
-      "Prophase I",
-      "Telophase I"
-    ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
     "id": "biology-plant-physiology-87",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Telophase I",
-      "Prophase I",
-      "Metaphase I"
-    ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-88",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1408,23 +1392,55 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-89",
+    "id": "biology-plant-physiology-88",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Lysosome",
-      "Golgi apparatus",
       "Mitochondrion",
-      "Ribosome"
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome"
     ],
-    "ans": 2,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
+    "id": "biology-plant-physiology-89",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
     "id": "biology-plant-physiology-90",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-91",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1437,22 +1453,6 @@
     ],
     "ans": 1,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-91",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome"
-    ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -1478,12 +1478,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Ribosome",
-      "Lysosome",
       "Mitochondrion",
-      "Golgi apparatus"
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome"
     ],
-    "ans": 2,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -1492,15 +1492,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome"
+      "Prophase I",
+      "Telophase I",
+      "Metaphase I",
+      "Anaphase II"
     ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -1508,15 +1508,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Telophase I",
-      "Metaphase I",
-      "Prophase I",
-      "Anaphase II"
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion"
     ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -1526,12 +1526,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Golgi apparatus",
       "Mitochondrion",
       "Ribosome",
+      "Golgi apparatus",
       "Lysosome"
     ],
-    "ans": 1,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -1540,15 +1540,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Anaphase II",
-      "Telophase I",
-      "Metaphase I",
-      "Prophase I"
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome"
     ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -1558,12 +1558,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Telophase I",
-      "Anaphase II",
+      "Prophase I",
       "Metaphase I",
-      "Prophase I"
+      "Telophase I",
+      "Anaphase II"
     ],
-    "ans": 3,
+    "ans": 0,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -1574,12 +1574,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Ribosome",
       "Mitochondrion",
       "Lysosome",
+      "Ribosome",
       "Golgi apparatus"
     ],
-    "ans": 1,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -1588,15 +1588,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Mitochondrion",
-      "Golgi apparatus",
-      "Lysosome",
-      "Ribosome"
+      "Metaphase I",
+      "Telophase I",
+      "Prophase I",
+      "Anaphase II"
     ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -1604,15 +1604,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Metaphase I",
-      "Telophase I",
-      "Anaphase II",
-      "Prophase I"
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome",
+      "Mitochondrion"
     ],
     "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -1622,12 +1622,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Mitochondrion",
+      "Lysosome",
       "Ribosome",
-      "Golgi apparatus",
-      "Lysosome"
+      "Mitochondrion",
+      "Golgi apparatus"
     ],
-    "ans": 0,
+    "ans": 2,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -1640,15 +1640,31 @@
     "options": [
       "Telophase I",
       "Metaphase I",
-      "Anaphase II",
-      "Prophase I"
+      "Prophase I",
+      "Anaphase II"
     ],
-    "ans": 3,
+    "ans": 2,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
     "id": "biology-plant-physiology-104",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-105",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1664,87 +1680,7 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-105",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Metaphase I",
-      "Anaphase II",
-      "Prophase I",
-      "Telophase I"
-    ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
     "id": "biology-plant-physiology-106",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Metaphase I",
-      "Anaphase II",
-      "Telophase I",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-107",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Telophase I",
-      "Metaphase I",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-108",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Metaphase I",
-      "Anaphase II",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-109",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Prophase I",
-      "Anaphase II",
-      "Metaphase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-110",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1760,15 +1696,79 @@
     "source": "generated-original"
   },
   {
+    "id": "biology-plant-physiology-107",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-108",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-109",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-110",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
     "id": "biology-plant-physiology-111",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Telophase I",
       "Anaphase II",
       "Metaphase I",
+      "Telophase I",
       "Prophase I"
     ],
     "ans": 3,
@@ -1782,17 +1782,177 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Anaphase II",
-      "Prophase I",
       "Telophase I",
-      "Metaphase I"
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase II"
     ],
-    "ans": 1,
+    "ans": 2,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
     "id": "biology-plant-physiology-113",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-114",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-115",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-116",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-117",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-118",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-119",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-120",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-121",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-122",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-123",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1808,23 +1968,55 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-114",
+    "id": "biology-plant-physiology-124",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-125",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-126",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Metaphase I",
-      "Prophase I",
       "Telophase I",
-      "Anaphase II"
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
     ],
-    "ans": 1,
+    "ans": 3,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-115",
+    "id": "biology-plant-physiology-127",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1840,87 +2032,7 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-116",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Ribosome",
-      "Lysosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-117",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Ribosome",
-      "Golgi apparatus",
-      "Lysosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-118",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Prophase I",
-      "Metaphase I",
-      "Anaphase II"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-119",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Metaphase I",
-      "Prophase I",
-      "Anaphase II",
-      "Telophase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-120",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Ribosome",
-      "Lysosome",
-      "Golgi apparatus",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-121",
+    "id": "biology-plant-physiology-128",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1936,23 +2048,23 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-122",
+    "id": "biology-plant-physiology-129",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
+      "Mitochondrion",
       "Lysosome",
       "Golgi apparatus",
-      "Mitochondrion",
       "Ribosome"
     ],
-    "ans": 2,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-123",
+    "id": "biology-plant-physiology-130",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -1968,127 +2080,15 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-124",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Metaphase I",
-      "Telophase I",
-      "Anaphase II"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-125",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Golgi apparatus",
-      "Mitochondrion",
-      "Ribosome"
-    ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-126",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Prophase I",
-      "Anaphase II",
-      "Metaphase I"
-    ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-127",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Anaphase II",
-      "Metaphase I",
-      "Telophase I"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-128",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Golgi apparatus",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-129",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Ribosome",
-      "Golgi apparatus",
-      "Lysosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-130",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
     "id": "biology-plant-physiology-131",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Metaphase I",
-      "Prophase I",
       "Anaphase II",
+      "Prophase I",
+      "Metaphase I",
       "Telophase I"
     ],
     "ans": 1,
@@ -2102,241 +2102,17 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Mitochondrion",
+      "Golgi apparatus",
       "Ribosome",
       "Lysosome",
-      "Golgi apparatus"
+      "Mitochondrion"
     ],
-    "ans": 0,
+    "ans": 3,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
     "id": "biology-plant-physiology-133",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-134",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Lysosome",
-      "Ribosome",
-      "Golgi apparatus"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-135",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Golgi apparatus",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-136",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Metaphase I",
-      "Telophase I",
-      "Anaphase II"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-137",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Mitochondrion",
-      "Lysosome",
-      "Ribosome"
-    ],
-    "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-138",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Lysosome",
-      "Golgi apparatus",
-      "Ribosome"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-139",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Ribosome",
-      "Golgi apparatus",
-      "Lysosome"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-140",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-141",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Mitochondrion",
-      "Golgi apparatus",
-      "Ribosome"
-    ],
-    "ans": 1,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-142",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Golgi apparatus",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-143",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Anaphase II",
-      "Metaphase I",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-144",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Ribosome",
-      "Lysosome",
-      "Golgi apparatus"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-145",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Prophase I",
-      "Metaphase I",
-      "Telophase I",
-      "Anaphase II"
-    ],
-    "ans": 0,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-146",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Mitochondrion",
-      "Lysosome",
-      "Golgi apparatus",
-      "Ribosome"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-147",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -2352,14 +2128,30 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-148",
+    "id": "biology-plant-physiology-134",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-135",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Lysosome",
       "Ribosome",
+      "Lysosome",
       "Mitochondrion",
       "Golgi apparatus"
     ],
@@ -2368,47 +2160,15 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-149",
+    "id": "biology-plant-physiology-136",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Mitochondrion",
-      "Ribosome",
-      "Golgi apparatus",
-      "Lysosome"
-    ],
-    "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-150",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Telophase I",
-      "Metaphase I",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-151",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Ribosome",
-      "Mitochondrion",
       "Lysosome",
+      "Mitochondrion",
+      "Ribosome",
       "Golgi apparatus"
     ],
     "ans": 1,
@@ -2416,7 +2176,167 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-152",
+    "id": "biology-plant-physiology-137",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-138",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-139",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Prophase I",
+      "Metaphase I",
+      "Telophase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-140",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase II"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-141",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-142",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-143",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Metaphase I",
+      "Telophase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-144",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I",
+      "Metaphase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-145",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase II"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-146",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-147",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -2432,23 +2352,7 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-153",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Telophase I",
-      "Metaphase I",
-      "Anaphase II",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-154",
+    "id": "biology-plant-physiology-148",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -2464,19 +2368,115 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-155",
+    "id": "biology-plant-physiology-149",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
+      "Ribosome",
+      "Lysosome",
+      "Mitochondrion",
+      "Golgi apparatus"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-150",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-151",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-152",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-153",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
       "Mitochondrion",
       "Lysosome",
-      "Golgi apparatus",
       "Ribosome"
     ],
-    "ans": 0,
+    "ans": 1,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-154",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-155",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Prophase I",
+      "Anaphase II",
+      "Metaphase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -2486,12 +2486,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Metaphase I",
-      "Anaphase II",
       "Telophase I",
-      "Prophase I"
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase II"
     ],
-    "ans": 3,
+    "ans": 2,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -2500,15 +2500,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Telophase I",
-      "Anaphase II",
-      "Metaphase I",
-      "Prophase I"
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Ribosome",
+      "Lysosome"
     ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -2518,9 +2518,9 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Lysosome",
-      "Mitochondrion",
       "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome",
       "Ribosome"
     ],
     "ans": 1,
@@ -2534,17 +2534,33 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Lysosome",
-      "Ribosome",
       "Mitochondrion",
-      "Golgi apparatus"
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome"
     ],
-    "ans": 2,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
     "id": "biology-plant-physiology-160",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-161",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -2560,35 +2576,19 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-161",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Telophase I",
-      "Prophase I",
-      "Metaphase I"
-    ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
     "id": "biology-plant-physiology-162",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Anaphase II",
-      "Metaphase I",
-      "Prophase I",
-      "Telophase I"
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion"
     ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -2598,17 +2598,65 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
+      "Telophase I",
       "Anaphase II",
       "Prophase I",
-      "Metaphase I",
-      "Telophase I"
+      "Metaphase I"
     ],
-    "ans": 1,
+    "ans": 2,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
     "id": "biology-plant-physiology-164",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-165",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-166",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Metaphase I",
+      "Telophase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-167",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -2624,66 +2672,18 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-165",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Mitochondrion",
-      "Ribosome"
-    ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-166",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Golgi apparatus",
-      "Ribosome",
-      "Mitochondrion"
-    ],
-    "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-167",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
-    "options": [
-      "Lysosome",
-      "Golgi apparatus",
-      "Mitochondrion",
-      "Ribosome"
-    ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
-    "source": "generated-original"
-  },
-  {
     "id": "biology-plant-physiology-168",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Mitochondrion",
-      "Golgi apparatus",
       "Lysosome",
-      "Ribosome"
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion"
     ],
-    "ans": 0,
+    "ans": 3,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -2694,12 +2694,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
+      "Anaphase II",
       "Prophase I",
       "Telophase I",
-      "Metaphase I",
-      "Anaphase II"
+      "Metaphase I"
     ],
-    "ans": 0,
+    "ans": 1,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -2710,9 +2710,9 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
+      "Telophase I",
       "Anaphase II",
       "Metaphase I",
-      "Telophase I",
       "Prophase I"
     ],
     "ans": 3,
@@ -2724,15 +2724,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Golgi apparatus",
-      "Ribosome",
-      "Mitochondrion",
-      "Lysosome"
+      "Prophase I",
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I"
     ],
-    "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -2742,12 +2742,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Prophase I",
       "Telophase I",
-      "Anaphase II",
-      "Metaphase I"
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase II"
     ],
-    "ans": 0,
+    "ans": 2,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -2759,11 +2759,11 @@
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
       "Anaphase II",
-      "Telophase I",
       "Prophase I",
+      "Telophase I",
       "Metaphase I"
     ],
-    "ans": 2,
+    "ans": 1,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -2774,12 +2774,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Lysosome",
+      "Mitochondrion",
       "Golgi apparatus",
       "Ribosome",
-      "Mitochondrion"
+      "Lysosome"
     ],
-    "ans": 3,
+    "ans": 0,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -2788,15 +2788,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Golgi apparatus",
-      "Lysosome",
-      "Ribosome",
-      "Mitochondrion"
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I"
     ],
     "ans": 3,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -2804,15 +2804,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Telophase I",
-      "Prophase I",
-      "Anaphase II",
-      "Metaphase I"
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome"
     ],
     "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -2822,12 +2822,12 @@
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Mitochondrion",
+      "Ribosome",
       "Lysosome",
-      "Golgi apparatus",
-      "Ribosome"
+      "Mitochondrion",
+      "Golgi apparatus"
     ],
-    "ans": 0,
+    "ans": 2,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -2836,15 +2836,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Metaphase I",
-      "Telophase I",
-      "Anaphase II",
-      "Prophase I"
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome"
     ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -2852,15 +2852,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Anaphase II",
-      "Prophase I",
-      "Metaphase I",
-      "Telophase I"
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome",
+      "Golgi apparatus"
     ],
     "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -2868,15 +2868,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Ribosome",
-      "Golgi apparatus",
-      "Mitochondrion",
-      "Lysosome"
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I"
     ],
     "ans": 2,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -2884,15 +2884,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Anaphase II",
-      "Prophase I",
-      "Telophase I",
-      "Metaphase I"
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome",
+      "Mitochondrion"
     ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -2902,12 +2902,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Anaphase II",
-      "Telophase I",
       "Prophase I",
-      "Metaphase I"
+      "Anaphase II",
+      "Metaphase I",
+      "Telophase I"
     ],
-    "ans": 2,
+    "ans": 0,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -2919,11 +2919,11 @@
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
       "Golgi apparatus",
+      "Mitochondrion",
       "Ribosome",
-      "Lysosome",
-      "Mitochondrion"
+      "Lysosome"
     ],
-    "ans": 3,
+    "ans": 1,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -2932,15 +2932,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Anaphase II",
-      "Prophase I",
-      "Telophase I",
-      "Metaphase I"
+      "Mitochondrion",
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus"
     ],
-    "ans": 1,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -2951,11 +2951,11 @@
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
       "Golgi apparatus",
-      "Lysosome",
       "Mitochondrion",
-      "Ribosome"
+      "Ribosome",
+      "Lysosome"
     ],
-    "ans": 2,
+    "ans": 1,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
@@ -2966,12 +2966,12 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Metaphase I",
-      "Telophase I",
       "Prophase I",
-      "Anaphase II"
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
     ],
-    "ans": 2,
+    "ans": 0,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
@@ -2980,15 +2980,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Metaphase I",
-      "Telophase I",
-      "Prophase I",
-      "Anaphase II"
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus"
     ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
@@ -2996,15 +2996,15 @@
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Mitochondrion",
-      "Ribosome",
-      "Golgi apparatus",
-      "Lysosome"
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
     ],
     "ans": 0,
-    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   },
   {
@@ -3015,9 +3015,9 @@
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
       "Prophase I",
-      "Anaphase II",
       "Metaphase I",
-      "Telophase I"
+      "Telophase I",
+      "Anaphase II"
     ],
     "ans": 0,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
@@ -3030,10 +3030,10 @@
     "topic": "",
     "q": "In which phase of meiosis does crossing over occur?",
     "options": [
-      "Metaphase I",
+      "Telophase I",
       "Prophase I",
       "Anaphase II",
-      "Telophase I"
+      "Metaphase I"
     ],
     "ans": 1,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
@@ -3041,6 +3041,134 @@
   },
   {
     "id": "biology-plant-physiology-191",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-192",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-193",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I",
+      "Metaphase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-194",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Telophase I",
+      "Metaphase I",
+      "Anaphase II"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-195",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-196",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I",
+      "Metaphase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-197",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-198",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-199",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -3056,7 +3184,39 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-192",
+    "id": "biology-plant-physiology-200",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-201",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Metaphase I",
+      "Telophase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-202",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -3072,39 +3232,23 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-193",
-    "subject": "Biology",
-    "chapter": "Plant Physiology",
-    "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
-    "options": [
-      "Anaphase II",
-      "Telophase I",
-      "Metaphase I",
-      "Prophase I"
-    ],
-    "ans": 3,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
-    "source": "generated-original"
-  },
-  {
-    "id": "biology-plant-physiology-194",
+    "id": "biology-plant-physiology-203",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
     "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Lysosome",
       "Ribosome",
+      "Mitochondrion",
       "Golgi apparatus",
-      "Mitochondrion"
+      "Lysosome"
     ],
-    "ans": 3,
+    "ans": 1,
     "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-195",
+    "id": "biology-plant-physiology-204",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -3120,23 +3264,39 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-196",
+    "id": "biology-plant-physiology-205",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
-    "q": "In which phase of meiosis does crossing over occur?",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
     "options": [
-      "Metaphase I",
-      "Anaphase II",
-      "Prophase I",
-      "Telophase I"
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
     ],
-    "ans": 2,
-    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-197",
+    "id": "biology-plant-physiology-206",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Ribosome",
+      "Lysosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-207",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -3152,7 +3312,823 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-198",
+    "id": "biology-plant-physiology-208",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-209",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-210",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-211",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-212",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Telophase I",
+      "Prophase I",
+      "Anaphase II"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-213",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-214",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-215",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-216",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-217",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-218",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-219",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-220",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-221",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-222",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-223",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-224",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-225",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Metaphase I",
+      "Telophase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-226",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I",
+      "Metaphase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-227",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-228",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-229",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-230",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I",
+      "Metaphase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-231",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-232",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-233",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Telophase I",
+      "Metaphase I",
+      "Anaphase II"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-234",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome",
+      "Golgi apparatus"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-235",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Golgi apparatus",
+      "Ribosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-236",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-237",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-238",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-239",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Telophase I",
+      "Prophase I",
+      "Anaphase II"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-240",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-241",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-242",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-243",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-244",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-245",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-246",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Ribosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-247",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-248",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-249",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-250",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-251",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-252",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-253",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-254",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-255",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-256",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-257",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-258",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-259",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -3168,7 +4144,103 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-199",
+    "id": "biology-plant-physiology-260",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-261",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-262",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-263",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-264",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Anaphase II",
+      "Metaphase I",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-265",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-266",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -3176,6 +4248,198 @@
     "options": [
       "Metaphase I",
       "Telophase I",
+      "Anaphase II",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-267",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-268",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-269",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-270",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-271",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-272",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-273",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-274",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-275",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-276",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-277",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Anaphase II",
+      "Telophase I",
+      "Metaphase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-278",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Metaphase I",
       "Prophase I",
       "Anaphase II"
     ],
@@ -3184,7 +4448,103 @@
     "source": "generated-original"
   },
   {
-    "id": "biology-plant-physiology-200",
+    "id": "biology-plant-physiology-279",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I"
+    ],
+    "ans": 3,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-280",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Telophase I",
+      "Anaphase II",
+      "Prophase I",
+      "Metaphase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-281",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-282",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-283",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Anaphase II",
+      "Telophase I",
+      "Prophase I",
+      "Metaphase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-284",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-285",
     "subject": "Biology",
     "chapter": "Plant Physiology",
     "topic": "",
@@ -3196,6 +4556,246 @@
       "Anaphase II"
     ],
     "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-286",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II",
+      "Metaphase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-287",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-288",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-289",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-290",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Ribosome"
+    ],
+    "ans": 1,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-291",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-292",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-293",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-294",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Ribosome",
+      "Lysosome",
+      "Golgi apparatus",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-295",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Mitochondrion",
+      "Lysosome",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "ans": 0,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-296",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Prophase I",
+      "Metaphase I",
+      "Anaphase II",
+      "Telophase I"
+    ],
+    "ans": 0,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-297",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Lysosome",
+      "Mitochondrion"
+    ],
+    "ans": 3,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-298",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Anaphase II",
+      "Prophase I",
+      "Telophase I"
+    ],
+    "ans": 2,
+    "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-299",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "Which cellular organelle is primarily responsible for ATP production?",
+    "options": [
+      "Golgi apparatus",
+      "Lysosome",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "ans": 2,
+    "exp": "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells.",
+    "source": "generated-original"
+  },
+  {
+    "id": "biology-plant-physiology-300",
+    "subject": "Biology",
+    "chapter": "Plant Physiology",
+    "topic": "",
+    "q": "In which phase of meiosis does crossing over occur?",
+    "options": [
+      "Metaphase I",
+      "Prophase I",
+      "Telophase I",
+      "Anaphase II"
+    ],
+    "ans": 1,
     "exp": "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments.",
     "source": "generated-original"
   }

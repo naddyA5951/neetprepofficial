@@ -125,11 +125,11 @@ def main():
             path = ROOT / meta['file']
             path.parent.mkdir(parents=True, exist_ok=True)
             topic = (meta.get('topics') or [None])[0] if meta.get('topics') else ''
-            arr = [generate_question(subject, chapter, topic, i) for i in range(200)]
+            arr = [generate_question(subject, chapter, topic, i) for i in range(300)]
             with open(path, 'w', encoding='utf-8') as out:
                 json.dump(arr, out, indent=2, ensure_ascii=False)
             total_files += 1
-    print(f"Wrote {total_files} chapter files with 200 NEET-style questions each.")
+    print(f"Wrote {total_files} chapter files with 300 NEET-style questions each.")
 
 
 if __name__ == '__main__':
