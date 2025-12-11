@@ -347,6 +347,21 @@ async function practice(){
     byId('results').classList.remove('hidden');
     // local leaderboard
     const lb=JSON.parse(localStorage.getItem('neet_leaderboard')||'[]'); lb.unshift({ts:Date.now(),...r}); localStorage.setItem('neet_leaderboard', JSON.stringify(lb.slice(0,20)));
+
+    // Reveal solutions and highlight correct/incorrect answers in the rendered list
+    document.querySelectorAll('#list > div').forEach(card=>{
+      const details = card.querySelector('details'); if(details) details.open = true;
+      const firstInput = card.querySelector('input[data-qid]'); if(!firstInput) return;
+      const qid = firstInput.dataset.qid; const q = STATE.pool.find(x=>x.id===qid); if(!q) return;
+      const chosen = STATE.answers[qid];
+      card.querySelectorAll('label').forEach(label=>{
+        const inp = label.querySelector('input[data-idx]'); if(!inp) return;
+        const idx = parseInt(inp.dataset.idx,10);
+        label.classList.remove('ring-2','ring-green-200','bg-rose-50');
+        if(idx === q.ans) label.classList.add('ring-2','ring-green-200');
+        if(chosen!=null && idx === chosen && chosen!==q.ans) label.classList.add('bg-rose-50');
+      });
+    });
   });
 
   byId('reviewIncorrectBtn').addEventListener('click',()=>{
