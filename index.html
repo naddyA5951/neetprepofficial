@@ -101,6 +101,15 @@
           <select id="topicSelect" class="w-full rounded-xl border-slate-300 p-2"></select>
         </label>
         <label class="block">
+          <span class="block text-sm font-medium mb-1">Difficulty</span>
+          <select id="difficultySelect" class="w-full rounded-xl border-slate-300 p-2">
+            <option value="All">All</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </label>
+        <label class="block">
           <span class="block text-sm font-medium mb-1">Questions</span>
           <input id="countInput" type="number" min="1" max="200" value="30" class="w-full rounded-xl border-slate-300 p-2"/>
         </label>
@@ -304,7 +313,7 @@ async function practice(){
   }
 
   byId('startBtn').addEventListener('click', async ()=>{
-    const s=subjectSel.value, c=chapterSel.value, t=topicSel.value;
+    const s=subjectSel.value, c=chapterSel.value, t=topicSel.value, diff=byId('difficultySelect').value;
     const count=Math.max(1,Math.min(200,parseInt(byId('countInput').value||'30')));
     let paths=[];
     if(s==='All'){
@@ -318,6 +327,7 @@ async function practice(){
     for(const p of paths){
       try{ const arr=await loadChapterFile(p.path); bank.push(...arr.filter(q=>t==='All'||q.topic===t)); }catch(e){ console.warn(e); }
     }
+    if(diff!=='All') bank = bank.filter(q=>q.difficulty===diff);
     // shuffle & slice
     for(let i=bank.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [bank[i],bank[j]]=[bank[j],bank[i]]; }
     STATE.pool=bank.slice(0,count); STATE.answers={}; badgePath.textContent = `${s}${c!=='All'?' › '+c:''}${t!=='All'?' › '+t:''}`;

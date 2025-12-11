@@ -13,6 +13,9 @@ from math import isclose
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'data' / 'manifest.json'
 
+# Configure difficulty distribution here (easy, medium, hard)
+DIFFICULTY_DISTRIBUTION = (0.3, 0.55, 0.15)
+
 
 def slug(s: str) -> str:
     return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
@@ -114,11 +117,12 @@ def gen_biology_question(subject, chapter, difficulty, i):
 
 def generate_question(subject, chapter, topic, i):
     qid = make_id(subject, chapter, i)
-    # assign difficulty probabilistically first
+    # assign difficulty probabilistically first using configured distribution
     r = random.random()
-    if r < 0.45:
+    e_prob, m_prob, h_prob = DIFFICULTY_DISTRIBUTION
+    if r < e_prob:
         difficulty = 'easy'
-    elif r < 0.85:
+    elif r < e_prob + m_prob:
         difficulty = 'medium'
     else:
         difficulty = 'hard'
