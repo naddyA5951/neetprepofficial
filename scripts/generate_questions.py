@@ -40,7 +40,7 @@ def gen_physics_question(subject, chapter, i):
         correct = f"{s} m"
         distractors = [f"{s + random.randint(1,10)} m", f"{max(1, s - random.randint(1,10))} m", f"{s/2} m"]
         opts, ans = choice_shuffle(correct, distractors)
-        exp = f"Distance = speed × time = {v}×{t} = {s} m."
+        exp = f"Step 1: Distance = speed × time.\nStep 2: {v} × {t} = {s} m.\nAnswer: {s} m."
     else:
         q = f"Which statement about Newton's third law is correct?"
         correct = "For every action there is an equal and opposite reaction."
@@ -50,7 +50,7 @@ def gen_physics_question(subject, chapter, i):
             "Action is greater than reaction when bodies are accelerating."
         ]
         opts, ans = choice_shuffle(correct, distractors)
-        exp = "Newton's third law: action and reaction are equal in magnitude, opposite in direction, and act on different bodies."
+        exp = "Newton's third law: For every action there is an equal and opposite reaction. They act on different bodies, are simultaneous, and have equal magnitude."
     return q, opts, ans, exp
 
 
@@ -65,7 +65,7 @@ def gen_chemistry_question(subject, chapter, i):
             "Melting point"
         ]
         opts, ans = choice_shuffle(correct, distractors)
-        exp = "Reactivity across a period is governed by effective nuclear charge and valence electrons, affecting electron affinity/ionization."
+        exp = "Reactivity across a period depends on effective nuclear charge and valence electron configuration, which influence ionization energy and electron affinity."
     else:
         # simple stoichiometry numeric
         n = random.randint(1,5)
@@ -73,7 +73,7 @@ def gen_chemistry_question(subject, chapter, i):
         correct = f"{n} moles"
         distractors = [f"{n*2} moles", f"{n/2} moles", f"{n+1} moles"]
         opts, ans = choice_shuffle(correct, distractors)
-        exp = "Reaction stoichiometry: 2 moles H2 produce 2 moles H2O, so moles of water equal moles of H2 reacted."
+        exp = f"Step 1: Reaction is 2H2 + O2 → 2H2O.\nStep 2: 2 moles H2 produce 2 moles H2O, so {n} moles H2 produce {n} moles H2O."
     return q, opts, ans, exp
 
 
@@ -83,13 +83,13 @@ def gen_biology_question(subject, chapter, i):
         correct = "Mitochondrion"
         distractors = ["Ribosome", "Golgi apparatus", "Lysosome"]
         opts, ans = choice_shuffle(correct, distractors)
-        exp = "Mitochondria generate ATP via oxidative phosphorylation in eukaryotic cells."
+        exp = "Mitochondria produce ATP by oxidative phosphorylation in the inner mitochondrial membrane via the electron transport chain and ATP synthase."
     else:
         q = f"In which phase of meiosis does crossing over occur?"
         correct = "Prophase I"
         distractors = ["Metaphase I", "Anaphase II", "Telophase I"]
         opts, ans = choice_shuffle(correct, distractors)
-        exp = "Crossing over occurs during Prophase I when homologous chromosomes pair and exchange segments."
+        exp = "Crossing over occurs in Prophase I during synapsis when homologous chromosomes exchange segments, increasing genetic variation."
     return q, opts, ans, exp
 
 
@@ -102,11 +102,24 @@ def generate_question(subject, chapter, topic, i):
     else:
         q, opts, ans, exp = gen_biology_question(subject, chapter, i)
 
+    # assign difficulty probabilistically and tags
+    r = random.random()
+    if r < 0.45:
+        difficulty = 'easy'
+    elif r < 0.85:
+        difficulty = 'medium'
+    else:
+        difficulty = 'hard'
+
+    topic_tags = [t.strip() for t in (topic.split(',') if topic else []) if t.strip()]
+
     return {
         "id": qid,
         "subject": subject,
         "chapter": chapter,
         "topic": topic or "",
+        "topicTags": topic_tags,
+        "difficulty": difficulty,
         "q": q,
         "options": opts,
         "ans": ans,

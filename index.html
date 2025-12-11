@@ -272,7 +272,10 @@ async function practice(){
       const card=document.createElement('div');
       card.className='p-4 mb-3 rounded-2xl border border-slate-200 bg-white';
       card.innerHTML=`
-        <div class="text-xs text-slate-500 mb-1">${q.subject} • ${q.chapter} • ${q.topic||''} <button data-bm="${q.id}" class="ml-2 px-2 py-0.5 text-amber-900 bg-amber-100 rounded-full">${STATE.bookmarks.has(q.id)?'★':'☆'}</button></div>
+        <div class="text-xs text-slate-500 mb-1">${q.subject} • ${q.chapter} • ${q.topic||''}
+          <span class="ml-2 ${q.difficulty==='hard'? 'bg-rose-600 text-white' : q.difficulty==='medium'? 'bg-amber-200 text-amber-900' : 'bg-emerald-200 text-emerald-800'} px-2 py-0.5 rounded-full text-xs">${q.difficulty||'—'}</span>
+          <button data-bm="${q.id}" class="ml-2 px-2 py-0.5 text-amber-900 bg-amber-100 rounded-full">${STATE.bookmarks.has(q.id)?'★':'☆'}</button>
+        </div>
         <div class="font-medium mb-2">Q${i+1}. ${q.q}</div>
         <div class="grid gap-2">
           ${q.options.map((opt,idx)=>`
@@ -281,7 +284,7 @@ async function practice(){
               <div>${String.fromCharCode(65+idx)}. ${opt}</div>
             </label>`).join('')}
         </div>
-        <details class="mt-2 text-sm text-slate-700"><summary class="cursor-pointer">Explanation</summary><div class="mt-1">${q.exp||'—'}</div></details>
+        <details class="mt-2 text-sm text-slate-700"><summary class="cursor-pointer">Solution</summary><div class="mt-1 whitespace-pre-wrap">${q.exp||'—'}</div></details>
       `;
       list.appendChild(card);
     });
